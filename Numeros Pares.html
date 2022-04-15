@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<h1>Estos son los números pares que hay entre 1 y 100</h1>
+
+
+<script>
+	
+	function saltarlinea(){
+		document.write("<br><br><br>")
+	}
+
+	function imprimir(frase){
+		document.write(frase);
+		saltarlinea();
+	}
+
+	var contador = 0;
+	var numeros = 0;
+
+	while(contador <=49){
+		imprimir(numeros + 2);
+		numeros = numeros + 2;
+		contador++;
+
+	}
+
+</script>
